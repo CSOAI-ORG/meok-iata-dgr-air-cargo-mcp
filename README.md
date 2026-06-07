@@ -62,7 +62,7 @@ pip install meok-iata-dgr-air-cargo-mcp
 - **Pro** — £299/mo (multi-station dashboards + Shipper's Dec PDF export)
 - **Fleet** — £1,499/mo (forwarder-grade, audit-export, SLA)
 
-[Subscribe Pro → £99/mo](https://buy.stripe.com/4gMfZja8seUWbEx1Uc8k915) · [Talk to Nick](mailto:nicholas@meok.ai)
+[Subscribe Pro → £99/mo](https://buy.stripe.com/5kQ6oJ0xS3ce8sl7ew8k91j) · [Talk to Nick](mailto:nicholas@meok.ai)
 
 ## Regulatory basis
 
