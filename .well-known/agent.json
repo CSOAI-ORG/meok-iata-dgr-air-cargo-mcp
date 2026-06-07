@@ -1,0 +1,95 @@
+{
+  "name": "meok-iata-dgr-air-cargo-mcp",
+  "description": "IATA DGR air-cargo compliance \u2014 ICAO Annex 18, IATA DGR 66, lithium-battery PI 965-970, Shipper's",
+  "url": "https://proofof.ai/scorecard/meok-iata-dgr-air-cargo-mcp.html",
+  "version": "1.0.0",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "classify_air_dangerous_good",
+      "name": "Classify Air Dangerous Good",
+      "description": "classify_air_dangerous_good via meok-iata-dgr-air-cargo-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_lithium_battery_air_transport",
+      "name": "Check Lithium Battery Air Transport",
+      "description": "check_lithium_battery_air_transport via meok-iata-dgr-air-cargo-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_state_of_charge_air",
+      "name": "Check State Of Charge Air",
+      "description": "check_state_of_charge_air via meok-iata-dgr-air-cargo-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "generate_iata_shippers_declaration",
+      "name": "Generate Iata Shippers Declaration",
+      "description": "generate_iata_shippers_declaration via meok-iata-dgr-air-cargo-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_passenger_vs_cargo_aircraft",
+      "name": "Check Passenger Vs Cargo Aircraft",
+      "description": "check_passenger_vs_cargo_aircraft via meok-iata-dgr-air-cargo-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "validate_un_specification_packaging",
+      "name": "Validate Un Specification Packaging",
+      "description": "validate_un_specification_packaging via meok-iata-dgr-air-cargo-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_country_variations",
+      "name": "Check Country Variations",
+      "description": "check_country_variations via meok-iata-dgr-air-cargo-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "prepare_iata_acceptance_check",
+      "name": "Prepare Iata Acceptance Check",
+      "description": "prepare_iata_acceptance_check via meok-iata-dgr-air-cargo-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

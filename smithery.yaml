@@ -1,0 +1,34 @@
+name: meok-iata-dgr-air-cargo-mcp
+description: 'IATA DGR air-cargo compliance — ICAO Annex 18, IATA DGR 66, lithium-battery PI 965-970, Shipper s'
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://proofof.ai
+repository: https://github.com/CSOAI-ORG/meok-iata-dgr-air-cargo-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: classify_air_dangerous_good
+  description: classify air dangerous good
+- name: check_lithium_battery_air_transport
+  description: check lithium battery air transport
+- name: check_state_of_charge_air
+  description: check state of charge air
+- name: generate_iata_shippers_declaration
+  description: generate iata shippers declaration
+- name: check_passenger_vs_cargo_aircraft
+  description: check passenger vs cargo aircraft
+- name: validate_un_specification_packaging
+  description: validate un specification packaging
+- name: check_country_variations
+  description: check country variations
+- name: prepare_iata_acceptance_check
+  description: prepare iata acceptance check
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

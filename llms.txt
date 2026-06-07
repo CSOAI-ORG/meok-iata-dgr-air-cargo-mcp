@@ -1,0 +1,24 @@
+# meok-iata-dgr-air-cargo-mcp
+
+> IATA DGR air-cargo compliance — ICAO Annex 18, IATA DGR 66, lithium-battery PI 965-970, Shipper's Declaration §8, acceptance checklist §9, state + operator variations. For forwarders + EV-recall carriers shipping by air. By MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- classify_air_dangerous_good
+- check_lithium_battery_air_transport
+- check_state_of_charge_air
+- generate_iata_shippers_declaration
+- check_passenger_vs_cargo_aircraft
+- validate_un_specification_packaging
+- check_country_variations
+- prepare_iata_acceptance_check
+
+## Install
+```
+pip install meok-iata-dgr-air-cargo-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/meok-iata-dgr-air-cargo-mcp/
+- Docs: https://meok.ai

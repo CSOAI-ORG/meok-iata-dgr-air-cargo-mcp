@@ -1,0 +1,26 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-iata-dgr-air-cargo-mcp",
+    "description": "IATA DGR air-cargo compliance \u2014 ICAO Annex 18, IATA DGR 66, lithium-battery PI 965-970, Shipper's",
+    "version": "1.0.0",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-iata-dgr-air-cargo-mcp"
+      }
+    ],
+    "capabilities": [
+      "classify_air_dangerous_good",
+      "check_lithium_battery_air_transport",
+      "check_state_of_charge_air",
+      "generate_iata_shippers_declaration",
+      "check_passenger_vs_cargo_aircraft",
+      "validate_un_specification_packaging",
+      "check_country_variations",
+      "prepare_iata_acceptance_check"
+    ]
+  }
+}
