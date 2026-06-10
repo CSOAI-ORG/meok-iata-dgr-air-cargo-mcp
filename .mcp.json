@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-iata-dgr-air-cargo-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-iata-dgr-air-cargo-mcp"
+      ]
+    }
+  }
+}
