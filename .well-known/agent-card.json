@@ -1,0 +1,160 @@
+{
+  "name": "Meok Iata Dgr Air Cargo Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-iata-dgr-air-cargo-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "IATA DGR air-cargo compliance — ICAO Annex 18, IATA DGR 66, lithium-battery PI 965-970, Shipper's Declaration §8, acceptance checklist §9, state + operator variations. For forwarders + EV-recall carriers shipping by air. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "classify_air_dangerous_good",
+      "name": "Classify Air Dangerous Good",
+      "description": "Classify Air Dangerous Good — a tool of the meok-iata-dgr-air-cargo-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_lithium_battery_air_transport",
+      "name": "Check Lithium Battery Air Transport",
+      "description": "Check Lithium Battery Air Transport — a tool of the meok-iata-dgr-air-cargo-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_state_of_charge_air",
+      "name": "Check State Of Charge Air",
+      "description": "Check State Of Charge Air — a tool of the meok-iata-dgr-air-cargo-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "generate_iata_shippers_declaration",
+      "name": "Generate Iata Shippers Declaration",
+      "description": "Generate Iata Shippers Declaration — a tool of the meok-iata-dgr-air-cargo-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_passenger_vs_cargo_aircraft",
+      "name": "Check Passenger Vs Cargo Aircraft",
+      "description": "Check Passenger Vs Cargo Aircraft — a tool of the meok-iata-dgr-air-cargo-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "validate_un_specification_packaging",
+      "name": "Validate Un Specification Packaging",
+      "description": "Validate Un Specification Packaging — a tool of the meok-iata-dgr-air-cargo-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_country_variations",
+      "name": "Check Country Variations",
+      "description": "Check Country Variations — a tool of the meok-iata-dgr-air-cargo-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "prepare_iata_acceptance_check",
+      "name": "Prepare Iata Acceptance Check",
+      "description": "Prepare Iata Acceptance Check — a tool of the meok-iata-dgr-air-cargo-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-iata-dgr-air-cargo-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
